@@ -1,5 +1,5 @@
 # docker-cloudflared
-![Docker Build Status](https://img.shields.io/docker/build/chambana/cloudflared.svg)
+[![Docker Build Status](https://img.shields.io/docker/build/chambana/cloudflared.svg)](https://hub.docker.com/r/chambana/cloudflared)
 
 A docker container for running [Cloudflare's Argo Tunnel](https://developers.cloudflare.com/argo-tunnel/quickstart/) to proxy a service.
 
