@@ -1,4 +1,6 @@
 # docker-cloudflared
+![Docker Build Status](https://img.shields.io/docker/build/chambana/cloudflared.svg)
+
 A docker container for running [Cloudflare's Argo Tunnel](https://developers.cloudflare.com/argo-tunnel/quickstart/) to proxy a service.
 
 You can activate a tunnel to a service by specifying the following environment variables:
