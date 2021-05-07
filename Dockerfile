@@ -13,4 +13,4 @@ RUN apt-get -qq update && \
     install -Dm755 cloudflared /usr/bin/cloudflared
 
 ENTRYPOINT ["/app/bin/run.sh"]                                                                                                                                                                                                                                                                                                                                                                                                            
-CMD ["sh", "-c", "/usr/bin/cloudflared tunnel --no-autoupdate --hostname ${CF_TUNNEL_HOSTNAME} ${CF_TUNNEL_ORIGIN_URL}"] 
+CMD ["sh", "-c", "/usr/bin/cloudflared tunnel run"] 
