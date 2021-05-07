@@ -9,7 +9,6 @@ RUN apt-get -qq update && \
                                                ca-certificates && \
     wget -O ./cloudflared.tgz https://bin.equinox.io/c/VdrWdbjqyF/cloudflared-stable-linux-amd64.tgz && \
     tar -zxvf ./cloudflared.tgz -C ./ && \
-    chmod +x /app/bin/run.sh && \
     install -Dm755 cloudflared /usr/bin/cloudflared
 
                                                                                                                                                                                                                                                                                                                                                                                            
