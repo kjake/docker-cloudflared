@@ -1,6 +1,6 @@
-FROM chambana/base:latest
+FROM kjake/base:latest
 
-MAINTAINER Josh King <jking@chambana.net>
+MAINTAINER kjake
 
 ## Add startup script.                                                                                                                                                                                                                                                                                                                                                                                                                    
                                                                                                                                                                                                                                                                                                                                                                                                          
