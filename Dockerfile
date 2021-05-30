@@ -12,4 +12,4 @@ RUN apt-get -qq update && \
     install -Dm755 cloudflared /usr/bin/cloudflared
 
                                                                                                                                                                                                                                                                                                                                                                                            
-CMD ["sh", "-c", "/usr/bin/cloudflared tunnel run"] 
+CMD ["sh", "-c", "/usr/bin/cloudflared tunnel run --no-autoupdate"] 
