@@ -11,7 +11,7 @@ RUN apt-get -qq update && \
                                                curl && \
     curl -s https://api.github.com/repos/cloudflare/cloudflared/releases/latest | grep -E 'browser_download_url' | grep linux-amd64 | cut -d '"' -f 4 | wget -qi - && \
     install -Dm755 cloudflared-linux-amd64 /usr/bin/cloudflared && \
-    apt-get autoremove && \
+    apt-get autoremove -y && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/
                                                                                                                                                                                                                                                                                                                                                                                            
